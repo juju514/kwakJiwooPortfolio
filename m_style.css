@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+}
+
+.clearfix::before,.clearfix::after {display:block; content:""; clear:both;}
+
+.wrap{
+    background-color: #E2F2E5;
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+
+
+#main{
+    width: 100vw;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(img/m_main.png);
+    background-size: cover;
+}
+
+
+.nav{
+    width: 100%;
+    height: 303px;
+}
+
+.logo{
+    width: 64px;
+    height: 95px;
+    float: left;
+    padding-top: 44px;
+    padding-left: 15px;
+}
+
+.logo_img{
+    width: 52px;
+    height: 52px;
+    background-image: url(img/logo.png);
+    background-size: cover;
+    border-radius: 1000px;
+}
+
+.logo2{
+    width: 64px;
+    height: 95px;
+    float: left;
+    padding-top: 44px;
+    padding-left: 15px;
+}
+
+.logo2_img{
+    width: 52px;
+    height: 52px;
+    background-image: url(img/logo2.png);
+    background-size: cover;
+    border-radius: 1000px;
+}
+
+.menu{
+    float: right;
+    padding-top: 54.8px;
+    padding-right: 25px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 13pt;
+    letter-spacing: 5px;
+    text-align: right;
+    color: #05501C;
+}
+
+
+.menu a:hover{
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+
+a:link, a:visited, a:active{
+    color: #05501C;
+}
+
+.menu2{
+    float: right;
+    padding-top: 54.8px;
+    padding-right: 25px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 13pt;
+    letter-spacing: 5px;
+    text-align: right;
+    color: #162F50;
+}
+
+
+.menu2 a:hover{
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+
+.menu2 a:link, .menu2 a:visited, .menu2 a:active{
+    color: #162F50;
+}
+
+
+
+.box1{
+    width: 100vw;
+    height: 676px;
+    margin: 0 auto;
+    background-image: url(img/m_1.png);
+    background-size: cover;
+    
+}
+
+.box2{
+    width: 100vw;
+    height: 95px;
+    background-image: url(img/m_2.png);
+    
+}
+
+
+.scrollMenu {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    overflow: scroll;;
+     /* 가로 스크롤 */
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollMenu a {
+    width: 257px;
+    height: 441px;
+    display: inline-block;
+    padding: 14px;
+  }
+  
+  div.scrollMenu a:hover {
+    transition: all 0.2s;
+    transform: scale(1.05);
+  }
+
+
+.footer{
+    width: 428px;
+    height: 79px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.but_bg{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-image: url(img/topbt.png);
+    position: absolute;
+    float: right;
+    border-radius: 100px;
+    position: fixed;
+    z-index: 500;
+}
+
+.but_bg{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-image: url(img/scroll2.png);
+    position: absolute;
+    float: right;
+    border-radius: 100px;
+    position: fixed;
+    z-index: 500;
+}
+
+
+.ww{
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+/* sub01 ----------------------------------------*/
+
+.wrap1{
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(0deg, #6E9B8D, #E2F2E5);
+    border: 0px solid red;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.wrap1_b{
+    width: 100vw;
+    height: 508px;
+    background-image: url(img/m1_b.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#main1{
+    width: 100%;
+    height: 433px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(img/m1_main.png);
+}
+
+.sub01_con1{
+    width: 100%;
+    height: 639px;
+    margin: 0 auto;
+    background-image: url(img/m1_1.png);
+}
+
+.sub01_con2{
+    width: 428px;
+    height: 591px;
+    margin: 0 auto;
+    background-image: url(img/m1_2.png);
+}
+
+.sub01_con3{
+    width: 100%;
+    height: 904px;
+    margin: 0 auto;
+    background-image: url(img/m1_3.png);
+}
+
+.sub01_con4{
+    width: 100%;
+    height: 733px;
+    margin: 0 auto;
+    background-image: url(img/m1_4.png);
+}
+
+.sub01_con5{
+    width: 100%;
+    height: 829px;
+    margin: 0 auto;
+    background-image: url(img/m1_5.png);
+}
+
+.sub01_con6{
+    width: 100%;
+    height: 429px;
+    margin: 0 auto;
+    background-image: url(img/m1_6.png);
+}
+
+
+
+/*sub02-------------------*/
+
+
+.wrap2{
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(0deg, #8DA789, #E8F2E2);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrap2_b{
+    width: 100%;
+    height: 510px;
+    background-image: url(img/m2_b.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+#main2{
+    width: 100%;
+    height: 433px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(img/m2_main.png);
+}
+
+
+.sub02_con1{
+    width: 100%;
+    height: 454px;
+    margin: 0 auto;
+    background-image: url(img/m2_1.png);
+}
+
+.sub02_con2{
+    width: 100%;
+    height: 692px;
+    margin: 0 auto;
+    background-image: url(img/m2_2.png);
+}
+
+.sub02_con3{
+    width: 100%;
+    height: 539px;
+    margin: 0 auto;
+    background-image: url(img/m2_3.png);
+}
+
+.sub02_con4{
+    width: 100%;
+    height: 458px;
+    margin: 0 auto;
+    background-image: url(img/m2_4.png);
+}
+
+.sub02_con5{
+    width: 100%;
+    height: 717px;
+    margin: 0 auto;
+    background-image: url(img/m2_5.png);
+}
+
+.sub02_con6{
+    width: 100%;
+    height: 416px;
+    margin: 0 auto;
+    background-image: url(img/m2_6.png)
+}
+
+.sub02_con7{
+    width: 100%;
+    height: 1198px;
+    margin: 0 auto;
+    background-image: url(img/m2_7.png);
+}
+
+.sub02_con8{
+    width: 100%;
+    height: 431px;
+    margin: 0 auto;
+    background-image: url(img/m2_8.png);
+}
+
+/* sub03-------------------------*/
+
+.wrap3{
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(0deg, #7AA69E, #D9E6E3);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrap3_b{
+    width: 100%;
+    height: 698px;
+    background-image: url(img/m3_b.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#main3 {
+    width: 100%;
+    height: 433px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(img/m3_main.png);
+}
+
+.sub03_con1{
+    width: 100%;
+    height: 606px;
+    margin: 0 auto;
+    background-image: url(img/m3_1.png);
+}
+
+.sub03_con2{
+    width: 100%;
+    height: 1790px;
+    margin: 0 auto;
+    background-image: url(img/m3_2.png);
+}
+
+.sub03_con3{
+    width: 100%;
+    height: 1486px;
+    margin: 0 auto;
+    background-image: url(img/m3_3.png);
+}
+
+.scrollMenu2 {
+    width: 100%;
+    height: 619px;
+    display: flex;
+    overflow: scroll;;
+     /* 가로 스크롤 */
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+div.scrollMenu2 li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+div.scrollMenu2 img {
+    width: 232px;
+    height: 501px;
+}
+
+/* sub04-------------------------*/
+
+.wrap4{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #7697AF, #DBE4F0);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrap4_b{
+    width: 100%;
+    height: 442px;
+    background-image: url(img/m4_b.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#main4{
+    width: 100%;
+    height: 433px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(img/m4_main.png);
+}
+
+.sub04_con1{
+    width: 100%;
+    height: 1944px;
+    margin: 0 auto;
+    background-image: url(img/m4_1.png);
+}
+
+.sub04_con2{
+    width: 100%;
+    height: 1669px;
+    margin: 0 auto;
+    background-image: url(img/m4_2.png);
+}
+
+.scrollMenu3 {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    overflow: scroll;;
+     /* 가로 스크롤 */
+    overflow: auto;
+    white-space: nowrap;
+    padding-top: 20px;
+    overflow: hidden;
+  }
+  
+div.scrollMenu3 li {
+    display: inline-block;
+}
+
+div.scrollMenu3 img {
+    width: 365px;
+    height: 304px;
+}
